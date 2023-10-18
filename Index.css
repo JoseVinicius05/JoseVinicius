@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+:root{
+    --fonte:'Young Serif', serif;
+}
+*{
+    margin: 0;
+    font-family: var(--fonte);
+    background-color: rgb(237, 191, 131);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+}
+.button{
+    display: flex;
+    width: 50px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow: 8px 5px 4px black;
+}
+
+.button{
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s;
+}
+.imagem{
+    border-radius: 10px ;
+}
+      
+    
+  

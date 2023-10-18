@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>Site top</title>
+</head>
+
+<body>
+    <center><h1>Segure o botão!</h1></center>
+    <div class="container">
+    <div class="button"><img class="imagem" src="imagemFoda.jpg" width="50px" height="80px"></div>
+    <script>
+        const followCursor = document.querySelector(".button");
+    
+        document.addEventListener("mousemove", (e) => {
+        followCursor.style.left = e.pageX + "px";
+        followCursor.style.top = e.pageY + "px";
+    });
+    </script>
+    </div>
+    <p class="p">cu</p>
+</body>
+</html>
